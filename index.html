@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon_black.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Noto+Serif+SC:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>ENCHANTIQUE 香氛 - 源于自然 只为安心</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="filter.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <h1 class="logo">
+                <img src="images/favicon_black.png" alt="ENCHANTIQUE Logo" class="logo-img">
+                <span class="logo-text">ENCHANTIQUE</span>
+            </h1>
+            
+            <ul class="nav-links">
+                <li><a href="#brand">品牌理念</a></li>
+                <li><a href="#team">设计师团队</a></li>
+                <li><a href="#products">香氛系列</a></li>
+                <li><a href="#stores">寻香地图</a></li>
+                <li><a href="#coop">合作伙伴</a></li>
+                <div class="language-switch desktop-only">
+                    <i class="fas fa-globe" id="languageIcon" title="切换语言"></i>
+                    <div class="language-popup" id="languagePopup">
+                        <a href="javascript:void(0)" class="language-option active" data-lang="zh">中文</a>
+                        <a href="javascript:void(0)" class="language-option" data-lang="en">English</a>
+                    </div>
+                </div>
+            </ul> 
+            
+            <button class="mobile-menu-btn" aria-label="菜单">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="mobile-menu-popup" id="mobileMenuPopup">
+                <a href="#brand" class="nav-item">品牌理念</a>
+                <a href="#team" class="nav-item">设计师团队</a>
+                <a href="#products" class="nav-item">香氛系列</a>
+                <a href="#stores" class="nav-item">寻香地图</a>
+                <a href="#coop" class="nav-item">合作伙伴</a>
+                <div class="mobile-language-options">
+                    <a href="javascript:void(0)" class="language-btn" data-lang="zh">中文</a>
+                    <a href="javascript:void(0)" class="language-btn" data-lang="en">EN</a>
+                </div>
+            </div>          
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <h2> 源于自然 · 只为安心</h2>
+            <a href="#products" class="explore-btn">探索系列</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="brand" class="brand-section">
+        <div class="container">
+            <h3 class="section-title reveal">品牌理念</h3>
+            <p class="section-subtitle reveal">Brand Philosophy</p>
+            <div class="brand-content-wrap">
+                <div class="brand-img-box reveal">
+                    <img src="images/brand.jpg" alt="brand">
+                </div>
+                <div class="brand-text-box reveal">
+                    <div class="brand-idea">
+                        <h4><i class="fas fa-seedling"></i> 品牌简介</h4>
+                        <p> ENCHANTIQUE源于"Enchant"，意为有魅力的感受，我们致力于捕捉大自然中稍纵即逝的安宁时刻。携手艺术家制作器型，与Givaudan、Firmenich等世界顶级香氛合作，我们以严苛的IFRA标准，将纯粹的植物精油封存于每一件器物之中。</p>
+                    </div>
+                    <div class="founder-thought">
+                        <h4><i class="fas fa-heart"></i> 品牌理念</h4>
+                        <p>香气是居室的灵魂。我们拒绝工业香精的喧嚣，坚持"可安心靠近"的温润。从晨曦的微光到深夜的静谧，希望ENCHANTIQUE能成为您生活中最温柔的隐形陪伴。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team-section">
+        <div class="container">
+            <h3 class="section-title reveal">设计师团队</h3>
+            <p class="section-subtitle reveal">Designer Team</p>
+            <div class="team-content-wrap">
+                <div class="team-activities reveal">
+                    <div class="card-header">
+                        <h4><span class="icon-box"><i class="fas fa-pen-nib"></i></span> 核心项目</h4>
+                    </div>
+                    <ul>
+                        <li>全运会场馆整体视觉设计主理</li>
+                        <li>天津博物馆巡回展空间美学构建</li>
+                        <li>中医附院院史馆全案落地</li>
+                        <li>院线动画《深海》场景美术指导</li>
+                        <li>《大闹西游》动画角色视觉设定</li>
+                        <li>城市地标文旅文创产品研发</li>
+                    </ul>
+                </div>
+                <div class="team-awards reveal">
+                    <div class="card-header">
+                        <h4><span class="icon-box"><i class="fas fa-trophy"></i></span> 荣誉奖项</h4>
+                    </div>
+                    <ul>
+                        <li>墨尔本水彩艺术展览 · 优秀奖</li>
+                        <li>香港 ART.H 展览 · “怪才”艺术家</li>
+                        <li>台湾“金犊奖” · 大陆赛区二等奖</li>
+                        <li>西安层次与空间美术馆联展</li>
+                        <li>天津达沃斯项目壁画 · 优秀荣誉</li>
+                        <li>北京人民大会堂天津厅壁画 · 设计荣誉</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- 产品系列 -->
+
+    <section id="products" class="products-section">
+        <div class="container">
+            <h3 class="section-title reveal">香氛系列</h3>
+            <p class="section-subtitle reveal">源于自然 只为安心</p>
+            
+            <div class="product-filter reveal">
+                <button class="filter-btn active" data-filter="all">产品系列</button>
+                <button class="filter-btn" data-filter="dragon">德化白瓷</button>
+                <button class="filter-btn" data-filter="incense">非遗线香</button>
+                <button class="filter-btn" data-filter="candle">感光蜡烛</button>
+                <button class="filter-btn" data-filter="card">旅行香卡</button>
+                <button class="filter-btn" data-filter="egg">宇宙蛋</button>
+                <button class="filter-btn" data-filter="tarot">女祭司塔罗</button>
+            </div>
+            
+            <div class="products-grid reveal">
+                <div class="product-card default-show" data-category="dragon" data-filter-trigger="dragon">
+                    <div class="product-img" data-gallery="images/dragon.png,images/Preuss.png">
+                        <img src="images/dragon.png" alt="中国白龙鳞">
+                        <div class="img-overlay"></div>
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">
+                            德化白瓷系列
+                            <span class="video-icon" data-video-src="video/dragon.mp4" title="观看视频"><i class="fas fa-play-circle"></i></span>
+                        </h4>
+                        <p class="meta">德化白瓷 | 北美樱桃木 | 天然大豆蜡</p>
+                        <p>温润如玉的瓷体，承载着天然大豆蜡的纯净</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dragon">
+                    <div class="product-img" data-gallery="images/dragon.png">
+                        <img src="images/dragon.png" alt="中国白龙鳞">
+                        <div class="product-detail-panel active">
+                            <h5>产品细节</h5>
+                            <ul>
+                                <li><strong>香型：</strong>暗夜素影 | 戏梦山林</li>
+                                <li><strong>材质：</strong>德化白瓷、北美樱桃木</li>
+                                <li><strong>容量：</strong>110ml / 约35小时燃烧</li>
+                                <li><strong>工艺：</strong>传统手工修坯，两次高温烧制</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">中国白·龙鳞</h4>
+                        <p class="meta">Top Fragrance</p>
+                        <p>选用芬美意顶级精油，玫瑰与檀香木质调交织的东方雅韵<br>杯体的设计灵感来源于神话中的的龙，每支瓷杯都由当地瓷艺师傅精心雕琢</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dragon"> 
+                    <div class="product-img" data-gallery="images/Preuss.png">
+                        <img src="images/Preuss.png" alt="普鲁斯特时刻">
+                        <div class="product-detail-panel active">
+                            <h5>产品细节</h5>
+                            <ul>
+                                <li><strong>香型：</strong>东方茶香</li>
+                                <li><strong>材质：</strong>德化白瓷、北美樱桃木</li>
+                                <li><strong>容量：</strong>150ml / 约35小时燃烧</li>
+                                <li><strong>工艺：</strong>每只瓷杯均由当地瓷艺师傅经过“烧”“捏”“塑”“贴”等多道程序打造</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">普鲁斯特时刻</h4>
+                        <p class="meta">三时茶事</p>
+                        <p>瓷体泛着朦胧光泽，点燃后茶香四溢，故名为“三时茶事”。素烧的杯壁温润质朴，像极了我们质朴又有美感的生活理念</p>
+                    </div>
+                </div>
+                
+                <div class="product-card default-show" data-category="incense" data-filter-trigger="incense">
+                    <div class="product-img" data-gallery="images/Incense.png">
+                        <img src="images/Incense.png" alt="非遗线香系列">
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">
+                           非遗线香系列
+                            <span class="video-icon" data-video-src="video/incense.mp4"><i class="fas fa-play-circle"></i></span>
+                        </h4>
+                        <p class="meta">非遗传承 | 天然胡桃木</p>
+                        <p>天津非遗六代传人手作，鹅梨帐中香，助眠安心</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="incense">
+                    <div class="product-img" data-gallery="images/Incense.png">
+                        <img src="images/Incense.png" alt="非遗线香系列">
+                        <div class="product-detail-panel active">
+                            <h5>产品细节</h5>
+                            <ul>
+                                <li><strong>香型：</strong>鹅梨帐中香</li>
+                                <li><strong>材质：</strong>天然胡桃木</li>
+                                <!-- <li><strong>容量：</strong>200g / 约35小时燃烧</li> -->
+                                <li><strong>工艺：</strong>携手天津非遗传承人精心制作，辅以洒金礼盒，精致高级</li>
+                            </ul>
+                        </div>
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">非遗线香</h4>
+                        <p class="meta">非遗传承 | 天然胡桃木</p>
+                        <p>天津非遗六代传人手作，鹅梨帐中香，助眠安心</p>
+                    </div>
+                </div>
+
+                <div class="product-card default-show" data-category="candle" data-filter-trigger="candle">
+                    <div class="product-img" data-gallery="images/candle.png,images/candle_horse_1.png,images/candle_horse_2.png">
+                        <img src="images/candle.png" alt="感光香氛蜡烛系列">
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">
+                            感光香氛蜡烛
+                            <span class="video-icon" data-video-src="video/candle.mp4"><i class="fas fa-play-circle"></i></span>
+                        </h4>
+                         <p class="meta">镂空雕花 | 烫金工艺</p>
+                        <p>灵感源自意式风情区，天然植物蜡与烫金工艺的邂逅</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="candle">
+                    <div class="product-img" data-gallery="images/candle.png">
+                        <img src="images/candle.png" alt="感光香氛蜡烛系列">
+                         <div class="product-detail-panel active">
+                            <h5>产品细节</h5>
+                            <ul>
+                                <li><strong>香型：</strong>茶香|玫瑰香型</li>
+                                <li><strong>材质：</strong>大豆蜡、椰子蜡、果冻蜡</li>
+                                <li><strong>容量：</strong>150g / 约35小时燃烧</li>
+                                <li><strong>工艺：</strong>烫金工艺 流光溢彩</li>
+                            </ul>
+                        </div>
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">翡冷翠与亚平宁月光</h4>
+                        <p class="meta">Tea & Rose</p>
+                        <p>灵感源自天津意式风情区。由天津美院硕士新锐设计师原创设计<br>结合"翡冷翠"的意大利风情与"亚平宁月光"的诗性<br>领略横跨欧亚的文化潮汐带</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="candle">
+                    <div class="product-img" data-gallery="images/candle_horse_1.png,images/candle_horse_2.png">
+                        <img src="images/candle_horse_1.png" alt="隽景流光感光香氛蜡烛 马年限定">
+                        <div class="product-detail-panel active">
+                            <h5>暗夜素影</h5>
+                            <ul>
+                                <li><strong>前调：</strong>树莓 | 玫瑰 | 粉胡椒</li>
+                                <li><strong>中调：</strong>铃兰 | 木兰花 | 大马士革玫瑰</li>
+                                <li><strong>后调：</strong>琥珀 | 麝香 | 香根草 | 广藿香 </li>
+                            </ul>
+                        </div>
+                        <div class="product-detail-panel">
+                            <h5>嘉木盈芳</h5>
+                            <ul>
+                                <li><strong>前调：</strong>佛手柑 | 青果 | 无花果叶</li>
+                                <li><strong>中调：</strong>无花果 | 青香 | 花香</li>
+                                <li><strong>后调：</strong>琥珀 | 麝香 | 无花果树木</li>
+                            </ul>
+                        </div>
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">隽景流光 · 马年限定</h4>
+                        <p class="meta">马年限定 | 流光溢彩</p>
+                        <p>双马腾飞寓意「前程共跃，隽景流光」<br>
+                           壁画系教授采用洛可可风格画风<br>
+                           甄选世界顶级香氛奇华顿，打造兼具舒眠助眠、身心焕活功能的艺术生活典藏</p>
+                    </div>
+                </div>
+
+                <div class="product-card default-show" data-category="card" data-filter-trigger="card">
+                    <div class="product-img" data-gallery="images/card.jpg,images/card-TJ_1.jpg">
+                        <img src="images/card.jpg" alt="世界旅行系列香卡">
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">
+                           世界旅行系列香卡
+                            <span class="video-icon" data-video-src="video/card.mp4"><i class="fas fa-play-circle"></i></span>
+                        </h4>
+                         <p class="meta">进口吸水棉纸 | 添加精油</p>
+                        <p>高密度吸水棉纸，收录翡冷翠手札与巴厘秘境的香气。</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="card">
+                    <div class="product-img" data-gallery="images/card.jpg">
+                        <img src="images/card.jpg" alt="世界旅行系列香卡">
+                        <div class="product-detail-panel active">
+                            <h5>产品细节</h5>
+                            <ul>
+                                <li><strong>香型：</strong>牧野童话</li>
+                                <li><strong>前调：</strong>柠檬 | 青柠</li>
+                                <li><strong>中调：</strong>芳香 | 罗勒</li>
+                                <li><strong>后调：</strong>木香</li>
+                            </ul>
+                        </div>                        
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">世界旅行系列</h4>
+                        <p class="meta">进口吸水棉纸 | 添加精油</p>
+                        <p>将世界旅行的足迹，化作指尖的香气记忆</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="card">
+                    <div class="product-img" data-gallery="images/card-TJ_1.jpg,images/card-TJ_2.jpg,images/card-TJ_3.jpg,images/card-TJ_4.jpg,images/card-TJ_5.jpg,images/card-TJ_6.jpg">
+                        <img src="images/card-TJ_1.jpg" alt="城市地标 天津">
+
+                        <div class="product-detail-panel active">
+                            <h5>和平女神像</h5>
+                            <ul>
+                                <li><strong>香型：</strong>柑橘调</li>
+                                <li><strong>前调：</strong>佛手柑 | 柏树 | 菠萝 | 清香</li>
+                                <li><strong>中调：</strong>茉莉 | 玫瑰 | 辛香</li>
+                                <li><strong>后调：</strong>檀香 | 麝香 | 黄葵</li>
+                            </ul>
+                        </div>
+
+                        <div class="product-detail-panel">
+                            <h5>津湾广场</h5>
+                            <ul>
+                                <li><strong>香型：</strong>柑橘馥奇调</li>
+                                <li><strong>前调：</strong>血橙 | 苦橙 | 京柚</li>
+                                <li><strong>中调：</strong>陈皮 | 天竺葵 | 茉莉</li>
+                                <li><strong>后调：</strong>檀香木 | 琥珀 | 零陵香豆</li>
+                            </ul>
+                        </div>
+
+                        <div class="product-detail-panel">
+                            <h5>民园广场</h5>
+                            <ul>
+                                <li><strong>香型：</strong>水生调</li>
+                                <li><strong>前调：</strong>水生 | 桉树 | 胡椒 | 橘子</li>
+                                <li><strong>中调：</strong>铃兰 | 茉莉</li>
+                                <li><strong>后调：</strong>檀香 | 雪松 | 亚奇枷罗木</li>
+                            </ul>
+                        </div>
+
+                        <div class="product-detail-panel">
+                            <h5>天津音乐厅</h5>
+                            <ul>
+                                <li><strong>香型：</strong>玫瑰花香</li>
+                                <li><strong>前调：</strong>树莓 | 玫瑰 | 粉胡椒</li>
+                                <li><strong>中调：</strong>铃兰 | 木兰花 | 大马士革玫瑰</li>
+                                <li><strong>后调：</strong>广藿香 | 香根草 | 琥珀 | 麝香</li>
+                            </ul>
+                        </div>
+
+                        <div class="product-detail-panel">
+                            <h5>五大道海棠</h5>
+                            <ul>
+                                <li><strong>香型：</strong>果香调</li>
+                                <li><strong>前调：</strong>热带水果</li>
+                                <li><strong>中调：</strong>玫瑰 | 紫罗兰</li>
+                                <li><strong>后调：</strong>麝香 | 龙涎香</li>
+                            </ul>
+                        </div>
+
+                        <div class="product-detail-panel">
+                            <h5>钟楼</h5>
+                            <ul>
+                                <li><strong>香型：</strong>柑橘馥奇调</li>
+                                <li><strong>前调：</strong>佛手柑 | 小豆蔻</li>
+                                <li><strong>中调：</strong>紫罗兰 | 鸢尾花</li>
+                                <li><strong>后调：</strong>檀香木 | 雪松 | 纸莎草</li>
+                            </ul>
+                        </div>
+
+                        <div class="img-overlay"></div>
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">城市地标 · 天津</h4>
+                         <p class="meta">City Collection</p>
+                        <p>鲜活柑橘撞柔润陈皮，檀香琥珀锁光影，是津湾日夜的雅致回甘</p>
+                    </div>
+                </div>
+
+                <div class="product-card default-show" data-category="egg" data-filter-trigger="egg">
+                    <div class="product-img" data-gallery="images/egg.png">
+                        <img src="images/egg.png" alt="宇宙蛋·灵蛇绕岁香氛器">
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">
+                           宇宙蛋 · 灵蛇绕岁
+                            <span class="video-icon" data-video-src="video/egg.mp4"><i class="fas fa-play-circle"></i></span>
+                        </h4>
+                        <p class="meta">灵蛇传说 | 天然硅藻泥</p>
+                        <p>灵蛇盘踞巨蛋守护香气的源头，寓意生生不息的守护</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="egg">
+                    <div class="product-img" data-gallery="images/egg.png">
+                        <img src="images/egg.png" alt="宇宙蛋·灵蛇绕岁香氛器">
+                        <div class="product-detail-panel">
+                            <h5>产品细节</h5>
+                            <ul>
+                                <li><strong>苍籽秘境：</strong><br>前调：果柠 | 香柠
+                                                              <br>中调：香花 | 茅香
+                                                              <br>后调：橙木 | 花香
+                                </li>
+                                <li><strong>星苔絮语：</strong><br>前调：薰衣草 | 柠檬 | 菠萝
+                                                              <br>中调：玫瑰 | 茉莉 | 干果 | 橡木苔
+                                                              <br>后调：檀香木 | 广藿香 | 零陵香豆
+                                </li>
+                                <li><strong>留香时长：</strong>30-45天</li>
+                                <li><strong>材质：</strong>锌合金</li>
+                            </ul>
+                        </div>
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">宇宙蛋 · 灵蛇绕岁</h4>
+                        <p class="meta">灵蛇传说 | 天然硅藻泥</p>
+                        <p>宇宙蛋主体采用锌合金铸造，金属表面如月光流淌，灵蛇鳞片刻画细腻，缠绕蛋身时形成天然防滑纹理</p>
+                    </div>
+                </div>
+                
+                <div class="product-card default-show" data-category="tarot" data-filter-trigger="tarot">
+                    <div class="product-img" data-gallery="images/tarot.png">
+                        <img src="images/tarot.png" alt="女祭司塔罗牌系列">
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">
+                           女祭司塔罗
+                            <span class="video-icon" data-video-src="video/tarot.mp4"><i class="fas fa-play-circle"></i></span>
+                        </h4>
+                        <p class="meta">木质馥奇 | 天然水晶</p>
+                        <p>水晶扩香石与神秘塔罗的结合，“直觉告诉你一切”。</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="tarot">
+                    <div class="product-img" data-gallery="images/tarot.png">
+                        <img src="images/tarot.png" alt="女祭司塔罗牌">
+                        <div class="product-detail-panel">
+                            <h5>产品细节</h5>
+                            <ul>
+                                <li><strong>前调：</strong>薰衣草 | 香柠檬 | 马鞭草 | 菠萝</li>
+                                <li><strong>中调：</strong>玫瑰 | 茉莉 | 干果 | 香豆素 | 橡木苔</li>
+                                <li><strong>后调：</strong>檀香木 | 广藿香 | 零陵香豆</li>
+                                <li><strong>留香时长：</strong>30-45天</li>
+                            </ul>
+                        </div>
+                        <button class="img-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="img-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="product-desc">
+                        <h4 class="card-title">女祭司礼盒</h4>
+                        <p class="meta">木质馥奇 | 天然水晶</p>
+                        <p>
+                            「白水晶」月光凝萃之晶涤净心尘澄明直觉之境<br>
+                            「粉水晶」蔷薇辉石之柔抚愈灵犀唤醒内在丰盈
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stores" class="stores-section">
+        <div class="container">
+            <h3 class="section-title reveal">寻香地图</h3>
+            <p class="section-subtitle reveal">Fragrance Map</p>
+            <div class="city-filter reveal">
+                <button class="city-btn active" data-city="tianjin">天津</button>
+                <button class="city-btn" data-city="other">其他城市</button>
+            </div>
+            
+            <div class="city-stores reveal" data-city="tianjin">
+                <div class="stores-grid">
+                    <div class="store-card">
+                        <div class="store-img">
+                            <img src="storesImg/GMstore.jpg" alt="光明百货">
+                            <!-- <div class="store-overlay">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div> -->
+                        </div>
+                        <div class="store-info">
+                            <h5 class="store-name">光明百货 (棉里空间)</h5>
+                            <a href="https://map.baidu.com/poi/%E5%85%89%E6%98%8E%E9%87%8C%E5%A4%A7%E6%A5%BC/@13048119.201869322,4714405.1575702755,13.02z?uid=d4213dcb3e513378b8bd6362&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&en_uid=d4213dcb3e513378b8bd6362&pcevaname=pc4.1&querytype=detailConInfo&da_src=shareurl" target="_blank" class="store-link">和平区五大道光明里2号楼</a>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                        <div class="store-img">
+                            <img src="storesImg/lsd.jpeg" alt="利顺德文创馆">
+                             <!-- <div class="store-overlay">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div> -->
+                        </div>
+                        <div class="store-info">
+                            <h5 class="store-name">利顺德文创馆</h5>
+                            <a href="https://map.baidu.com/search/%E5%8F%B0%E5%84%BF%E5%BA%84%E8%B7%AF33%E5%8F%B7%E5%88%A9%E9%A1%BA%E5%BE%B7%E5%A4%A7%E9%A5%AD%E5%BA%97/@13049309.965376427,4712688.0335128,19z?querytype=s&da_src=shareurl&wd=%E5%8F%B0%E5%84%BF%E5%BA%84%E8%B7%AF33%E5%8F%B7%E5%88%A9%E9%A1%BA%E5%BE%B7%E5%A4%A7%E9%A5%AD%E5%BA%97&c=332&src=0&pn=0&sug=0&l=19&b=(13048921.275,4712464.125;13049663.775,4712838.125)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2" target="_blank" class="store-link">台儿庄路33号利顺德地下一层</a>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                        <div class="store-img">
+                            <img src="storesImg/zisi.jpg" alt="子巳香水">
+                             <!-- <div class="store-overlay">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div> -->
+                        </div>
+                        <div class="store-info">
+                            <h5 class="store-name">子巳香水</h5>
+                            <a href="https://map.baidu.com/search/%E5%AD%90%E5%B7%B3%E9%A6%99%E6%B0%B4/@13046616.945,4717174.3,19z?querytype=s&da_src=shareurl&wd=%E5%AD%90%E5%B7%B3%E9%A6%99%E6%B0%B4&c=218&src=0&wd2=%E5%A4%A9%E6%B4%A5%E5%B8%82%E6%B2%B3%E5%8C%97%E5%8C%BA&pn=0&sug=1&l=19&b=(12728475.266664399,3553968.9603680996;12729217.766664399,3554342.9603680996)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=808d1163b31ce4689e9d684c&device_ratio=2"  target="_blank" class="store-link">和平区承德道12号</a>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                         <div class="store-img">
+                            <img src="storesImg/117.jpg" alt="天津之心">
+                             <!-- <div class="store-overlay">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div> -->
+                        </div>
+                        <div class="store-info">
+                            <h5 class="store-name">天津之心 (79层)</h5>
+                            <a href="https://map.baidu.com/search/%E5%A4%A9%E6%B4%A5%E4%B9%8B%E5%BF%83/@13045244.456867283,4716576.085,14.94z?querytype=s&da_src=shareurl&wd=%E5%A4%A9%E6%B4%A5%E4%B9%8B%E5%BF%83&c=332&src=0&pn=0&sug=0&l=11&b=(12982172.950178463,4691986.417550342;13117046.635637648,4759922.792448301)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2" target="_blank" class="store-link">和平区大沽北路2号</a>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                         <div class="store-img">
+                            <img src="storesImg/College_BLT.jpeg" alt="知名高校文创店">
+                             <!-- <div class="store-overlay">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div> -->
+                        </div>
+                        <div class="store-info">
+                            <h5 class="store-name">知名高校文创店</h5>
+                            <a href="https://map.baidu.com/search/%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6(%E5%85%AB%E9%87%8C%E5%8F%B0%E6%A0%A1%E5%8C%BA)/@13043364.985466408,4710260.1891933,16.62z?querytype=s&da_src=shareurl&wd=%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6(%E5%85%AB%E9%87%8C%E5%8F%B0%E6%A0%A1%E5%8C%BA)&c=332&src=0&wd2=%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%8D%97%E5%BC%80%E5%8C%BA&pn=0&sug=1&l=14&b=(13039049.887075616,4713455.857253087;13051439.02665895,4719696.312746913)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=7a84cea69d5be9e94d55473d&device_ratio=2"  target="_blank" class="store-link">南开区卫津路94号</a>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                         <div class="store-img">
+                            <img src="storesImg/College_JN.png" alt="知名高校文创店">
+                             <!-- <div class="store-overlay">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div> -->
+                        </div>
+                        <div class="store-info">
+                            <h5 class="store-name">知名高校文创店</h5>
+                            <a href=https://map.baidu.com/search/%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6(%E6%B4%A5%E5%8D%97%E6%A0%A1%E5%8C%BA)/@13063077.938342705,4693875.34602815,16.34z?querytype=s&da_src=shareurl&wd=%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6(%E6%B4%A5%E5%8D%97%E6%A0%A1%E5%8C%BA)&c=332&src=0&wd2=%E5%A4%A9%E6%B4%A5%E5%B8%82%E6%B4%A5%E5%8D%97%E5%8C%BA&pn=0&sug=1&l=13&b=(13022797,4701508;13070317,4725444)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=ae4ffd933efe392faaf7294c&device_ratio=2 target="_blank" class="store-link">津南区同砚路38号</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="city-stores" data-city="other">
+                <div class="stores-grid">
+                    <div class="store-card">
+                         <div class="store-img">
+                            <img src="storesImg/busigui.jpg" alt="内蒙古博物院">
+                        </div>
+                        <div class="store-info">
+                            <h5 class="store-name">内蒙古博物院 布斯瑰</h5>
+                            <a href="https://map.baidu.com/search/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2%E6%96%B0%E9%A6%86%E5%B8%83%E6%96%AF%E7%91%B0/@12442344.919233168,4961663.9118724,18.1z?querytype=s&da_src=shareurl&wd=%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%9A%E7%89%A9%E9%99%A2%E6%96%B0%E9%A6%86%E5%B8%83%E6%96%AF%E7%91%B0&c=332&src=0&pn=0&sug=0&l=19&b=(13100677.165,4697321.84;13101419.665,4697695.84)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2" target="_blank" class="store-link">呼和浩特市赛罕区新华东街</a>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                         <div class="store-img">
+                            <img src="storesImg/crow.jpg" alt="青岛乌鸦喝水">
+                        </div>
+                         <div class="store-info">
+                            <h5 class="store-name">青岛乌鸦喝水买手店</h5>
+                            <a href="https://map.baidu.com/search/%E8%8E%B1%E8%A5%BF%E5%B8%82%E6%B2%B3%E5%A4%B4%E5%BA%97%E8%93%AC%E6%B0%B4%E8%B7%AF%E4%B8%9C%E5%B0%8F%E8%8E%B1%E8%B7%AF%E5%8C%97/@13413584.290910494,4405622.154999999,12.88z?querytype=s&da_src=shareurl&wd=%E8%8E%B1%E8%A5%BF%E5%B8%82%E6%B2%B3%E5%A4%B4%E5%BA%97%E8%93%AC%E6%B0%B4%E8%B7%AF%E4%B8%9C%E5%B0%8F%E8%8E%B1%E8%B7%AF%E5%8C%97&c=1&src=0&pn=0&sug=0&l=7&b=(11938573.145601146,4232992.634068919;13488815.314351149,5013855.356105957)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2" target="_blank" class="store-link">莱西市河头店蓬水路</a>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                         <div class="store-img">
+                            <img src="storesImg/DT51.jpg" alt="西安DT51">
+                        </div>
+                        <div class="store-info">
+                            <h5 class="store-name">西安 DT51 SKP RDV</h5>
+                            <a href="https://map.baidu.com/search/%E8%A5%BF%E5%AE%89dt51/@12122528.735,4032599.64,19z?querytype=s&da_src=shareurl&wd=%E8%A5%BF%E5%AE%89DT51&c=236&src=0&pn=0&sug=0&l=12&b=(13387701.21070216,4392584.751635802;13439467.371118827,4418659.558364197)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2"  target="_blank" class="store-link">雁塔区高新区唐延路69号</a>
+                        </div>
+                    </div>
+                    <div class="store-card">
+                         <div class="store-img">
+                            <img src="storesImg/SKP.jpg" alt="武汉SKP">
+                        </div>
+                         <div class="store-info">
+                            <h5 class="store-name">武汉 SKP RDV</h5>
+                            <a href="https://map.baidu.com/search/%E6%AD%A6%E6%B1%89skp/@12728846.516664399,3554155.9603680996,19z?querytype=s&da_src=shareurl&wd=%E6%AD%A6%E6%B1%89SKP&c=233&src=0&pn=0&sug=0&l=19&b=(12122157.485,4032412.64;12122899.985,4032786.64)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2"  target="_blank" class="store-link">武昌区水果湖沙湖大道18号</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="coop" class="coop-section reveal">
+    <div class="container">
+        <h3 class="section-title">合作伙伴</h3>
+        <p class="section-subtitle">Collaborating Partners</p>
+        
+        <div class="coop-marquee-container">
+            <div class="coop-marquee-content">
+                <div class="coop-item">天津市旅游集团</div>
+                <div class="coop-item">厦门航空</div>
+                <div class="coop-item">西宁文旅</div>
+                <div class="coop-item">内蒙古博物院</div>
+                <div class="coop-item">金融街置业有限公司</div>
+                <div class="coop-item">花点时间花店</div>
+                
+                <div class="coop-item">天津市旅游集团</div>
+                <div class="coop-item">厦门航空</div>
+                <div class="coop-item">西宁文旅</div>
+                <div class="coop-item">内蒙古博物院</div>
+                <div class="coop-item">金融街置业有限公司</div>
+                <div class="coop-item">花点时间花店</div>
+
+                <div class="coop-item">天津市旅游集团</div>
+                <div class="coop-item">厦门航空</div>
+                <div class="coop-item">西宁文旅</div>
+                <div class="coop-item">内蒙古博物院</div>
+                <div class="coop-item">金融街置业有限公司</div>
+                <div class="coop-item">花点时间花店</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo-white.png" alt="ENCHANTIQUE" class="footer-logo-img">
+                    </div>
+                    <p class="slogan">源于自然 · 只为安心</p>
+                    <p class="brand-desc">致力于打造具有东方美学的原创高端香氛品牌，让香气成为生活的艺术。</p>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 天津自贸试验区(东疆综合保税区)亚洲路6975号金融贸易中心南区</li>
+                        <li><i class="fas fa-envelope"></i>admin@tjoceanofstars.com</li>
+                    </ul>
+                </div>
+
+                <div class="footer-follow">
+                    <h4>关注我们</h4>
+                    <div class="social-links">
+                        <a href="https://www.xiaohongshu.com/search_result?keyword=enchantique&source=unknown&type=51" class="social-icon xiaohongshu" title="小红书" target="_blank"></a>
+                        <a href="https://search.jd.com/Search?keyword=enchantique&enc=utf-8&suggest=3.def.0.~SAK8%7CMIXTAG_SAK8R,BUNCH_A_SAK8_R,SAK8_M_AM_L34199,SAK8_M_GUD_R,SAK8_M_LS_L52739,SAK8_M_mbl_L84046,SAK8_M_DLL1_L75124,SAK8_M_DLL2_L78621,SAK8_M_DLL3_L75137,SAK8_M_DLL4_L83006,SAK8_M_ClkRec_R,SAK8_M_cpsLayer_L87295,SAK8_M_MergerRelevFilter_R,SAK8_S_AM_R,SAK8_D_HSP_L36221,SAK8_O_QJCON_L47821,SAK8_O_QJHOT_L49450,SAK8_O_QJAB_L54342,SAK8_SC_PD_R,SAK8_SM_PB_R,SAK8_SM_PRK_R,SAK8_SM_PRC_R,SAK8_SM_PRR_R,SAK8_SS_PM_R,SAK8_CS_SHT_R%7C&wq=enchan&pvid=a60413d7397a411c9af5d66fab6ed280" class="social-icon jingdong" target="_blank" title="京东"></a>
+                        <a href="https://4k62skm3io7znoj4kib94383xrk5vbq.taobao.com/shop/view_shop.htm?appUid=RAzN8HWUAyotKYwXUJ7m5NVSN2174ZcWo7eEncc6EiDrnHcBHM8&spm=a21n57.1.hoverItem.2" class="social-icon taobao" title="淘宝" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 ENCHANTIQUE 香氛品牌 All Rights Reseverd</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="img-preview-modal" id="imgPreviewModal">
+        <button class="close-btn" id="closePreviewBtn">×</button>
+        <button class="modal-nav-btn modal-prev"><i class="fas fa-angle-left"></i></button>
+        <button class="modal-nav-btn modal-next"><i class="fas fa-angle-right"></i></button>
+        <img src="" alt="产品原图" class="preview-img" id="previewImg">
+    </div>
+
+    <div class="side-menu" id="sideMenu">
+        <a href="https://www.xiaohongshu.com/search_result?keyword=enchantique&source=unknown&type=51" class="social-icon xiaohongshu" title="小红书" target="_blank"></a>
+        <a href="https://search.jd.com/Search?keyword=enchantique&enc=utf-8&suggest=3.def.0.~SAK8%7CMIXTAG_SAK8R,BUNCH_A_SAK8_R,SAK8_M_AM_L34199,SAK8_M_GUD_R,SAK8_M_LS_L52739,SAK8_M_mbl_L84046,SAK8_M_DLL1_L75124,SAK8_M_DLL2_L78621,SAK8_M_DLL3_L75137,SAK8_M_DLL4_L83006,SAK8_M_ClkRec_R,SAK8_M_cpsLayer_L87295,SAK8_M_MergerRelevFilter_R,SAK8_S_AM_R,SAK8_D_HSP_L36221,SAK8_O_QJCON_L47821,SAK8_O_QJHOT_L49450,SAK8_O_QJAB_L54342,SAK8_SC_PD_R,SAK8_SM_PB_R,SAK8_SM_PRK_R,SAK8_SM_PRC_R,SAK8_SM_PRR_R,SAK8_SS_PM_R,SAK8_CS_SHT_R%7C&wq=enchan&pvid=a60413d7397a411c9af5d66fab6ed280" class="social-icon jingdong" target="_blank" title="京东"></a>
+        <a href="https://4k62skm3io7znoj4kib94383xrk5vbq.taobao.com/shop/view_shop.htm?appUid=RAzN8HWUAyotKYwXUJ7m5NVSN2174ZcWo7eEncc6EiDrnHcBHM8&spm=a21n57.1.hoverItem.2" class="social-icon taobao" title="淘宝" target="_blank"></a>
+        <button id="backToTopBtn" class="social-icon back-to-top" title="回到顶部">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <span class="video-modal-close" id="videoModalClose">×</span>
+            <video id="modalVideo" controls></video>
+        </div>
+    </div>
+</body>
+</html>
