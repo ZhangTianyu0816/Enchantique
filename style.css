@@ -1313,10 +1313,12 @@ section {
     }
 
     /* 品牌理念 */
-    .brand-img-box {
-        width: 100%; /* 手机上图片全宽 */
+    .brand-content-wrap {
+        width: 80vw; /* 手机上图片全宽 */
         margin: 0 auto 20px;
+        max-width: none;
     }
+
     .brand-text-box h4 {
         /* 在手机上居中图标/标题 */
         justify-content: center;
