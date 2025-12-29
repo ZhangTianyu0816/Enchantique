@@ -278,7 +278,6 @@ img { display: block; max-width: 100%; }
 /* ========== Hero区域 (视差) ========== */
 .hero {
     height: 100vh;
-    background: url('hero-bg.jpg') center/cover no-repeat fixed; /* fixed for parallax */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -304,7 +303,7 @@ img { display: block; max-width: 100%; }
 }
 
 .hero-content h2 {
-    font-size: 4rem;
+    font-size:2.5rem;
     font-weight: 400;
     letter-spacing: 5px;
     margin-bottom: 20px;
@@ -392,15 +391,15 @@ section {
 /* 板块标题样式 */
 .section-title {
     font-family: var(--font-sans);
-    font-size: 2.2rem;
+    font-size: 2rem;
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    color: var(--primary-color);
+    color: black;
     font-weight: 300;
     letter-spacing: 3px;
-    font-style: italic;
     display: inline-block;
+    text-shadow: 0 4px 10px rgba(214, 201, 182, 0.7);
 }
 
 .section-title::before, .section-title::after {
@@ -424,7 +423,7 @@ section {
 
 /* ========== 品牌理念 ========== */
 .brand-section {
-    background-color: #f8f8f8;
+    background-color: var(--bg-color);
 }
 
 .brand-content-wrap {
@@ -432,7 +431,8 @@ section {
     gap: 60px;
     text-align: left;
     align-items: center;
-    margin-top: 40px;
+    margin: 40px auto 0;
+    max-width: 50vw;
 }
 
 .brand-img-box {
@@ -912,16 +912,6 @@ section {
     }
 }
 
-/* 移动端适配 */
-@media (max-width: 768px) {
-    .coop-item {
-        font-size: 1rem;
-        padding: 0 30px;
-    }
-    .coop-marquee-content {
-        animation-duration: 25s; /* 移动端路程短，速度加快 */
-    }
-}
 
 /* ========== 页脚 (Footer) ========== */
 .footer {
@@ -1234,6 +1224,8 @@ section {
         width: 250px; /* 稍稍缩小宽度 */
         font-size: 1.3rem; /* 字体略微缩小 */
         padding: 15px 20px;
+        font-size: 1rem;
+        padding: 0 30px;
     }
     
     .coop-list {
@@ -1242,6 +1234,10 @@ section {
     
     .coop-slogan {
         font-size: 1.05rem;
+    }
+
+    .coop-marquee-content {
+        animation-duration: 25s; 
     }
 
     /* 页脚 */

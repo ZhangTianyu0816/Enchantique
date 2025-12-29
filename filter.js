@@ -54,6 +54,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+
+
     // --- 图片画廊与预览 ---
     const previewModal = document.getElementById('imgPreviewModal');
     const previewImg = document.getElementById('previewImg');
@@ -142,9 +144,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 updateCardDisplay(cardIndex);
             };
         }
-
-        // 点击图片放大预览
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) 
+            || window.innerWidth < 576; 
+        }
         container.onclick = (e) => {
+            if (isMobile()) return;   
             if (e.target.closest('.img-nav-btn')) return;
             currentGalleryImages = images;
             currentGalleryIndex = cardIndex;
