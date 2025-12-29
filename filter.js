@@ -221,3 +221,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const backToTopBtn = document.getElementById('backToTopBtn');
     if(backToTopBtn) backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // 移动端菜单切换
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const mobileMenuPopup = document.getElementById('mobileMenuPopup');
+
+    if (mobileMenuBtn && mobileMenuPopup) {
+        mobileMenuBtn.addEventListener('click', function() {
+            // 切换菜单弹窗的显示状态
+            mobileMenuPopup.classList.toggle('show');
+        });
+
+        // 可选：点击菜单外部关闭弹窗
+        document.addEventListener('click', function(e) {
+            if (!mobileMenuBtn.contains(e.target) && !mobileMenuPopup.contains(e.target)) {
+                mobileMenuPopup.classList.remove('show');
+            }
+        });
+    }
+});
